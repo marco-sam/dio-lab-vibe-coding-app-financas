@@ -1,62 +1,77 @@
 # 💸 App de Organização de Finanças Pessoais com Vibe Coding - Prosa
----- Prompt com PRD refinado no Copilot:
- 
+
+## Prompt com PRD refinado no Copilot
+
 Olá copilot!
+
 Gostaria que me ajudasse a revisar este PRD (Product Requirements Document) pois pretendo usa-lo no Louvable para exercitar minhas skills de Vibe Coding. Poderia me ajudar ?
+
 Como me resposta, me envie o PRD revisado e sintetize de forma didática os conceitos de Vibe Coding e PRD, pois ainda estou aprendendo sobre eles.
 
+### Contexto
 
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário em linguagem natural.  
+Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário em linguagem natural.
+
 A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
 
+### Problema
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
+Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.
+
 Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
 
+### Público-Alvo
 
-# Público-Alvo
 Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
 
+### Funcionalidades-Chave
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
+1. Registrar gastos via chat em linguagem natural.
+2. Classificar automaticamente as transações.
+3. Definir e acompanhar metas financeiras.
+4. Receber dicas de economia do "Agente Financeiro".
 5. Visualizar relatórios simples e personalizados.
 
+### Entregável da IA
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
+Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.
+
 Usar tom educativo e linguagem acessível, em português.
 
+---
 
-# ----- Interações com o Lovable
+## Interações com o Lovable
 
-- Crie um app de finanças pessoais(Prosa) com base no seguinte PRD(Product Requirements Document):
+- Crie um app de finanças pessoais (Prosa) com base no seguinte PRD (Product Requirements Document).
 
-- Corrija quaisquer problemas de seguranças nas formas de login, ou vamos procurar alternativas alheias ao login via google.
+- Corrija quaisquer problemas de segurança nas formas de login, ou vamos procurar alternativas alheias ao login via Google.
 
-- Crie a diretriz no chat para condicionar qualquer assunto que o usuário mencione para o proposito de finanças.
+- Crie a diretriz no chat para condicionar qualquer assunto que o usuário mencione para o propósito de finanças.
 
-- Crie um botão no canto superior direito de todas as telas (exceto a tela de login) que permita o logout do sistema. Este botão tambem deve informar o nome do usuario.
-Quanto a responsividade no modo Tablet, tudo funciona bem. Apenas na tela de Painel, ajuste as fontes numéricas dos cards 'Receitas do mes', 'Gastos do mes' e 'Saldo atual'. Os numeros estão grandes.
+- Crie um botão no canto superior direito de todas as telas (exceto a tela de login) que permita o logout do sistema. Este botão também deve informar o nome do usuário.
 
-- Resultado final no Lovable: https://id-preview--cc722590-2feb-4f99-a5d2-e19ab119d5c9.lovable.app/chat
+- Quanto à responsividade no modo Tablet, tudo funciona bem. Apenas na tela de Painel, ajuste as fontes numéricas dos cards "Receitas do mês", "Gastos do mês" e "Saldo atual". Os números estão grandes.
 
+### Resultado final no Lovable
 
-# Prints ou pequenos vídeos das interações com a IA;
+https://id-preview--cc722590-2feb-4f99-a5d2-e19ab119d5c9.lovable.app/chat
+
+---
+
+## Prints ou Pequenos Vídeos das Interações com a IA
+
 <img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/a0332d83-e6cf-488b-85c3-1680f2c6683f" />
+
 <img width="1916" height="913" alt="image" src="https://github.com/user-attachments/assets/d839c495-8587-4b2f-87bc-24b95a6d4f4a" />
+
 <img width="1917" height="914" alt="image" src="https://github.com/user-attachments/assets/ebb2d081-5466-4717-80aa-d5d6bb89f260" />
+
 <img width="1916" height="916" alt="image" src="https://github.com/user-attachments/assets/18cc101e-0150-43ef-8cff-825d85908f2e" />
 
+---
 
+# Um Resumo do que o App de Finanças Pessoais Faz
 
-
-# Um resumo do que o seu **App de Finanças Pessoais** faz;
 # Prosa - Assistente de Finanças Pessoais Conversacional
 
 ## Visão Geral
@@ -230,14 +245,26 @@ O produto foi concebido seguindo os seguintes princípios:
 
 Validar a hipótese de que usuários iniciantes conseguem manter um controle financeiro mais consistente quando interagem com um assistente conversacional em vez de utilizar aplicativos financeiros tradicionais baseados em formulários e planilhas.
 
+---
 
-   
-##  O que funcionou bem?
-  - A conversação é simplificada. Dispensa uso de termos técnicos e informações complexas. Basta informar o que recebou(ou gastou) e quando. O Prosa faz o restante.
-    
-##  O que não funcionou como o esperado?
-  - O login ainda pode ser um desafio para usuário menos familizarizados com a tecnologia. É comum, por exemplo, usuários de 3ª idade não possuirem conta no Google e apresentarem dificuldade na abertura de conta no Prosa.
-    
-## O que aprendeu sobre conversar com IAs?
-  - O diferencial da IA está no rapido aprendizado. Não é preciso a entrada de muitos dados nem termos técnicos para que a IA entenda a necessidade do usuário. E se por ventura,
-  - a IA entender algo errado, um unico prompt consegue corrigir tudo.
+## O que Funcionou Bem?
+
+- A conversação é simplificada.
+- Dispensa uso de termos técnicos e informações complexas.
+- Basta informar o que recebeu (ou gastou) e quando.
+- O Prosa faz o restante.
+
+---
+
+## O que Não Funcionou Como o Esperado?
+
+- O login ainda pode ser um desafio para usuários menos familiarizados com tecnologia.
+- É comum, por exemplo, usuários da terceira idade não possuírem conta Google e apresentarem dificuldade na abertura de conta no Prosa.
+
+---
+
+## O que Aprendi Sobre Conversar com IAs?
+
+- O diferencial da IA está no rápido aprendizado.
+- Não é preciso fornecer muitos dados nem utilizar termos técnicos para que a IA compreenda a necessidade do usuário.
+- Se a IA entender algo errado, um único prompt consegue corrigir tudo.
